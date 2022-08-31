@@ -16,7 +16,7 @@ const Header = () => {
 		toggleModal(toggleState);
 	};
 	return (
-		<header className='text-gray-600 body-font sticky top-0 bg-white shadow-sm'>
+		<header className='text-gray-600 body-font sticky top-0 bg-white shadow-sm z-10'>
 			<div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
 				<nav className='flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto'>
 					<span className='mr-5 hover:text-gray-900 cursor-pointer'>
